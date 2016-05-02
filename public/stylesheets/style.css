@@ -18,6 +18,7 @@ main {
   border-radius: 5px;
   line-height: 50px;
   font-size: 19px;
+  cursor: pointer;
 }
 
 #livestream {
@@ -29,9 +30,9 @@ main {
   border-radius: 5px;
   line-height: 50px;
   font-size: 19px;
+  cursor: pointer;
 }
 
-#water p {
+#water p, #livestream p {
   color: white;
-  font-weight: bolder;
 }

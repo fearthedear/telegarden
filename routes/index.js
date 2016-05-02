@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Telegarden' });
 });
 
+router.get('/livestream', function (req, res) {
+  res.render('livestream', { flight: ''});
+});
+
 module.exports = router;
