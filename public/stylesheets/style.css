@@ -7,6 +7,12 @@ body {
 main {
   flex: 1 0 auto;
   text-align: center;
+
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100%; width: 100%;
+	text-align: center;
+
 }
 
 #water {
@@ -14,7 +20,7 @@ main {
   height: 50px;
   background-color: #64b5f6;
   display: block;
-  margin: 100px auto 20px auto;
+  margin: 200px auto 20px auto;
   border-radius: 5px;
   line-height: 50px;
   font-size: 19px;
@@ -26,7 +32,7 @@ main {
   height: 50px;
   background-color: #64b5f6;
   display: block;
-  margin: 100px auto 20px auto;
+  margin: 100px auto 200px auto;
   border-radius: 5px;
   line-height: 50px;
   font-size: 19px;
@@ -35,4 +41,13 @@ main {
 
 #water p, #livestream p {
   color: white;
+}
+
+
+footer.page-footer {
+	margin-top: 0!important;
+}
+
+iframe {
+  margin: 20px;
 }

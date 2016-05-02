@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/livestream', function (req, res) {
-  res.render('livestream', { flight: ''});
+  res.render('livestream');
 });
 
 module.exports = router;
